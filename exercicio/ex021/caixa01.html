@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixa</title>
+    <style>
+        h1 {
+            /*exemplo box level*/
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            
+           border: 3px solid black;
+           
+            /*border-width: 3px;
+            border-style: solid;
+            border-color: black; escreva nessa sequancia no shorthand(resumir o codigo)*/
+            
+            text-align: center;
+            
+            padding: 10px 10px 10px 10px;
+            
+           /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; (escreva nessa sequencia o shorthand)*/
+
+            margin: 20px auto 40px auto;
+            
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; escreva nessa sequancia o shorthand*/
+            
+            outline: 10px dashed rgb(163, 52, 52);
+            /*outline-width: 10px;
+            outline-style: dashed;
+            outline-color: rgba(179, 62, 62, 0.336); escreva nessa sequancia o shothand*/
+           
+        }
+        a{
+            /*exemplo de inline block   */
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            padding: 5px 5px 5px 5px;
+            text-decoration: none;
+        }
+         
+
+        a:hover{
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        /*padding tem tres lugares 
+        top=em cima 
+        right= altura
+        bottom=em baixo
+        left=esquerda
+        */
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>paragrafos tambem sao exemplos de box-level, mas os <a href="#">links sao exemplos de caixa inlin-level</a>,vamos
+        ver como tudo isso funciona</p>
+</body>
+
+</html>

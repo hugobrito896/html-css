@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*
+em html e id em CSS e # so pode ter um elemento dentro de um documento em html
+em html e class em css e . pode ter varios elementos
+*/
+
+body{
+    background-color: rgb(182, 255, 182);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: green;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+h2{
+    color: rgb(1, 124, 1);
+}
+
+main{
+   background-color: white;
+   width: 700px;
+   margin: auto;
+   padding: 15px;
+   border-radius: 20px;
+   box-shadow: 3px 3px 13px green;
+}
+
+.basico{
+color: rgb(20, 3, 255);
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.destaque{
+    background-color: rgb(224, 224, 120);
+}

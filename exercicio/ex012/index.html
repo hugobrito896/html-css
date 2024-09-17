@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em html</title>
+</head>
+<body>
+    <h1>inserindo videos hospedados localmente</h1>
+    <p>este video esta hospedado no meu propio servidor</p>
+
+   <video controls width="500px" poster="imagens/limoes-capa.png" loop>
+    <source src="video/meu-video.mp4" type="videos/mp4">
+    <source src="video/meu-video.m4v" type="video/m4v">
+    <source src="video/meu-video.webm" type="video/webm">
+    <source src="video/meu-video.ogv" type="video/ogv">
+    <p>seu navegador nao e compativel com esse video </p>
+   </video>
+   <video src="video/meu-video.mp4" width="500px" poster="imagens/limoes-capa.png" controls></video>
+   <!--colocar video exemplo-->
+
+   <h1>inserindo videos do yotube</h1>
+   <iframe width="500" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=1WXTZkPLoH3Sb_3y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <!--colcocar video atraves do yotube iframe-->
+</body>
+</html>
