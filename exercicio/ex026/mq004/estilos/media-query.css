@@ -32,6 +32,7 @@ main{
 
 main::after{
     content: 'essa impressão foi feita atravez do curso em video e pelo nosso site cursoemvideo.com';
+    text-decoration: overline;
 }
 
 main h1{
