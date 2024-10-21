@@ -19,6 +19,12 @@ Grande telas: acima de 1200px
     body{
         background-image: url(../imagens/back-print.jpg); /*desnecessario*/
     }
+
+    main::after{
+        content: 'essa impressão foi feita atravez do curso em video e pelo nosso site cursoemvideo.com';
+        text-decoration: overline;
+    }
+
     img#phone{display: none;}
     img#tablet{display: none;}
     img#print{display: block;}
@@ -28,11 +34,6 @@ Grande telas: acima de 1200px
 
 main{
     border: 2px solid black;
-}
-
-main::after{
-    content: 'essa impressão foi feita atravez do curso em video e pelo nosso site cursoemvideo.com';
-    text-decoration: overline;
 }
 
 main h1{
